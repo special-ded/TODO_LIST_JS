@@ -51,7 +51,6 @@ function deleteCheckTodo(event) {
     const todo = item.parentElement;
     todo.classList.add('fall')
     removeLocalTodos(todo)
-    console.log(todo)
     setTimeout(() => todo.remove(), 1000)
 
   }
